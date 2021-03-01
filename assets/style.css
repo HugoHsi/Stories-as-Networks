@@ -1,0 +1,15 @@
+
+
+h1 {
+    font-size: 10rem;
+    font-family: p22 stanyan regular;
+    margin: 0;
+}
+
+.input {
+    width: fit-content;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: spaced-evenly;
+
+}
