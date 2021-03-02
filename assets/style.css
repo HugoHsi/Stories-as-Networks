@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "p22 stanyan regular";
+  src: url("P22\ Stanyan\ Regular\ Regular.woff2")
+}
+
 p {
   font-size: 10rem;
   font-family: p22 stanyan regular;
@@ -20,4 +25,10 @@ a {
 p:hover {
   color: gray;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 20vw;
+  }
 }
