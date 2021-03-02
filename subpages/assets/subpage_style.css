@@ -1,0 +1,25 @@
+p {
+  font-size: 10rem;
+  font-family: p22 stanyan regular;
+  margin: 0;
+  color: black;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+}
+
+.change:hover {
+  font-size: 0;
+  color: gray;
+}
+
+.change:hover:before {
+  content: attr(data-hover);
+  font-size: 10rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
